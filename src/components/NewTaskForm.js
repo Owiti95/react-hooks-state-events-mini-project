@@ -10,7 +10,6 @@ function NewTaskForm({ categories, onTaskFormSubmit }) {
     setText("");
     setCategory(categories[0]);
   };
-
   return (
     <form className="new-task-form" onSubmit={handleSubmit}>
       <label>
@@ -40,5 +39,4 @@ function NewTaskForm({ categories, onTaskFormSubmit }) {
     </form>
   );
 }
-
 export default NewTaskForm;

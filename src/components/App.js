@@ -6,7 +6,7 @@ import { CATEGORIES, TASKS } from "../data";
 
 function App() {
   const [tasks, setTasks] = useState(TASKS);
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("All")
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
@@ -40,5 +40,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

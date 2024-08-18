@@ -1,5 +1,4 @@
 import React from "react";
-
 function CategoryFilter({ categories, selectedCategory, onCategoryClick }) {
   return (
     <div className="categories">
@@ -16,5 +15,4 @@ function CategoryFilter({ categories, selectedCategory, onCategoryClick }) {
     </div>
   );
 }
-
 export default CategoryFilter;
